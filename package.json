@@ -1,6 +1,6 @@
 {
   "name": "string-intersection",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Find characters in a string that also occur in another string",
   "main": "string-intersection.min.js",
   "scripts": {

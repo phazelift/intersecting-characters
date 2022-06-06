@@ -26,7 +26,9 @@
         ch = a[i];
 
         if (b.indexOf(ch) > -1) {
-          found.push(ch);
+          if (found.indexOf(ch) < 0) {
+            found.push(ch);
+          }
         }
       }
     }

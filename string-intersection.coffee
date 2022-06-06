@@ -21,7 +21,8 @@ intersection = (a, b) ->
 		message.error 'requires string type arguments'
 	else for ch in a
 		if b.indexOf(ch) > -1
-			found.push ch
+			if found.indexOf(ch) < 0
+				found.push ch
 	return found
 
 
